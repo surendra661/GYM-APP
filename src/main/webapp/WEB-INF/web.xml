@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" 
+         version="3.0">
+
+    <servlet>
+        <servlet-name>home</servlet-name>
+        <servlet-class>com.gym.controller.HomeController</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>home</servlet-name>
+        <url-pattern>/home</url-pattern>
+    </servlet-mapping>
+
+</web-app>
